@@ -1,0 +1,1391 @@
+Archive member included to satisfy reference by file (symbol)
+
+C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring.c.o)
+                              obj/code.cpp.o (delay)
+C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring_digital.c.o)
+                              obj/SPI.cpp.o (pinMode)
+C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial.cpp.o)
+                              obj/code.cpp.o (_ZN14HardwareSerial5beginEmh)
+C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial0.cpp.o)
+                              obj/code.cpp.o (Serial)
+C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+                              obj/tasks.cpp.o (_ZN5Print5writeEPKhj)
+C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(hooks.c.o)
+                              C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring.c.o) (yield)
+C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(abi.cpp.o)
+                              C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o) (__cxa_pure_virtual)
+C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_api_osek.c.o)
+                              obj/code.cpp.o (StartOS)
+C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_sched_entry_points.c.o)
+                              C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_api_osek.c.o) (osEE_scheduler_task_end)
+C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_sched_partitioned.c.o)
+                              C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_api_osek.c.o) (osEE_scheduler_task_activated)
+C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_std_change_context.c.o)
+                              C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_sched_partitioned.c.o) (osEE_change_context_from_running)
+C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_atmega_intvect.c.o)
+                              C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_api_osek.c.o) (osEE_atmega_intvect)
+C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_avr8_asm.S.o)
+                              C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_std_change_context.c.o) (osEE_hal_save_ctx_and_restore_ctx)
+C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_scheduler.c.o)
+                              C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_sched_partitioned.c.o) (osEE_scheduler_core_rq_preempt_stk)
+c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(addsf3.o)
+                              C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o) (__subsf3)
+c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+                              c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(addsf3.o) (__addsf3x)
+c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+                              C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o) (__ltsf2)
+c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(divsf3.o)
+                              C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o) (__divsf3)
+c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                              c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(divsf3.o) (__divsf3x)
+c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+                              C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o) (__fixunssfsi)
+c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+                              C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o) (__floatunsisf)
+c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+                              c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(cmpsf2.o) (__fp_cmp)
+c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+                              c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_inf)
+c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+                              c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_nan)
+c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+                              c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_pscA)
+c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+                              c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_pscB)
+c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_round.o)
+                              c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(addsf3.o) (__fp_round)
+c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+                              c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_split3)
+c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+                              c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_zero)
+c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(gesf2.o)
+                              C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o) (__gtsf2)
+c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+                              C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o) (__mulsf3)
+c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                              c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(mulsf3.o) (__mulsf3x)
+c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(unordsf2.o)
+                              C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o) (__unordsf2)
+c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_udivmodsi4.o)
+                              C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial.cpp.o) (__udivmodsi4)
+c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
+                              c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o (exit)
+c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_tablejump2.o)
+                              obj/mcp_can.cpp.o (__tablejump2__)
+c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_copy_data.o)
+                              obj/code.cpp.o (__do_copy_data)
+c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_clear_bss.o)
+                              obj/SPI.cpp.o (__do_clear_bss)
+c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_ctors.o)
+                              obj/code.cpp.o (__do_global_ctors)
+c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(abort.o)
+                              C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(abi.cpp.o) (abort)
+
+Allocating common symbols
+Common symbol       size              file
+
+KCB                 0x1               obj/ee_applcfg.c.o
+
+Discarded input sections
+
+ .data          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+ .bss           0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+ .text          0x00000000        0x0 obj/SPI.cpp.o
+ .data          0x00000000        0x0 obj/SPI.cpp.o
+ .bss           0x00000000        0x0 obj/SPI.cpp.o
+ .text._ZN8SPIClass3endEv
+                0x00000000       0x28 obj/SPI.cpp.o
+ .text._ZN8SPIClass14usingInterruptEh
+                0x00000000       0x38 obj/SPI.cpp.o
+ .text._ZN8SPIClass17notUsingInterruptEh
+                0x00000000       0x36 obj/SPI.cpp.o
+ .text          0x00000000        0x0 obj/code.cpp.o
+ .data          0x00000000        0x0 obj/code.cpp.o
+ .bss           0x00000000        0x0 obj/code.cpp.o
+ .text          0x00000000        0x0 obj/ee_applcfg.c.o
+ .data          0x00000000        0x0 obj/ee_applcfg.c.o
+ .bss           0x00000000        0x0 obj/ee_applcfg.c.o
+ .group         0x00000000        0x8 obj/mcp_can.cpp.o
+ .group         0x00000000        0x8 obj/mcp_can.cpp.o
+ .group         0x00000000        0x8 obj/mcp_can.cpp.o
+ .text          0x00000000        0x0 obj/mcp_can.cpp.o
+ .data          0x00000000        0x0 obj/mcp_can.cpp.o
+ .bss           0x00000000        0x0 obj/mcp_can.cpp.o
+ .text._Z9txCtrlRegh
+                0x00000000       0x14 obj/mcp_can.cpp.o
+ .text._Z16statusToTxBufferh
+                0x00000000       0x16 obj/mcp_can.cpp.o
+ .text._Z14statusToTxSidhh
+                0x00000000       0x16 obj/mcp_can.cpp.o
+ .text._Z11txSidhToRTSh
+                0x00000000       0x1c obj/mcp_can.cpp.o
+ .text._Z14txSidhToTxLoadh
+                0x00000000       0x1c obj/mcp_can.cpp.o
+ .text._Z8txIfFlagh
+                0x00000000       0x14 obj/mcp_can.cpp.o
+ .text._Z19txStatusPendingFlagh
+                0x00000000       0x14 obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN21mcp2515_readRegisterSEhPhh
+                0x00000000       0x84 obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN20mcp2515_setRegisterSEhPKhh
+                0x00000000       0x7e obj/mcp_can.cpp.o
+ .text._Z17mcp2515_id_to_bufhmPh
+                0x00000000       0x4e obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN16mcp2515_write_idEhhm
+                0x00000000       0x52 obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN15mcp2515_read_idEhPhPm
+                0x00000000       0xc4 obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN22mcp2515_start_transmitEh
+                0x00000000       0x36 obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN20mcp2515_write_canMsgEhmhhhPVKh
+                0x00000000       0xf0 obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN19mcp2515_isTXBufFreeEPhh
+                0x00000000       0x5e obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN24mcp2515_getNextFreeTXBufEPh
+                0x00000000       0x90 obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN17enableTxInterruptEb
+                0x00000000       0x2a obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN9init_MaskEhhm
+                0x00000000       0xac obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN9init_FiltEhhm
+                0x00000000       0xdc obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN10sendMsgBufEhmhhhPVKh
+                0x00000000       0x76 obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN13trySendMsgBufEmhhhPKhh
+                0x00000000       0x84 obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN7sendMsgEmhhhPKhb
+                0x00000000       0xec obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN10sendMsgBufEmhhhPKhb
+                0x00000000       0x1a obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN10sendMsgBufEmhhPKhb
+                0x00000000       0x26 obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN12readMsgBufIDEPmPhS1_
+                0x00000000       0x48 obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN18checkClearRxStatusEPh
+                0x00000000       0x1a obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN18checkClearTxStatusEPhh
+                0x00000000       0x84 obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN26clearBufferTransmitIfFlagsEh
+                0x00000000       0x10 obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN10checkErrorEv
+                0x00000000        0xe obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN15isRemoteRequestEv
+                0x00000000        0x6 obj/mcp_can.cpp.o
+ .text._ZN7MCP_CAN15isExtendedFrameEv
+                0x00000000        0x6 obj/mcp_can.cpp.o
+ .rodata.CSWTCH.58
+                0x00000000        0x3 obj/mcp_can.cpp.o
+ .rodata.CSWTCH.56
+                0x00000000        0x3 obj/mcp_can.cpp.o
+ .rodata.CSWTCH.52
+                0x00000000        0xd obj/mcp_can.cpp.o
+ .rodata.CSWTCH.50
+                0x00000000        0xd obj/mcp_can.cpp.o
+ .rodata.CSWTCH.48
+                0x00000000        0x3 obj/mcp_can.cpp.o
+ .text          0x00000000        0x0 obj/tasks.cpp.o
+ .data          0x00000000        0x0 obj/tasks.cpp.o
+ .bss           0x00000000        0x0 obj/tasks.cpp.o
+ .text          0x00000000        0x0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring.c.o)
+ .data          0x00000000        0x0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring.c.o)
+ .bss           0x00000000        0x0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring.c.o)
+ .text.millis   0x00000000       0x18 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring.c.o)
+ .text.delayMicroseconds
+                0x00000000       0x16 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring.c.o)
+ .text          0x00000000        0x0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring_digital.c.o)
+ .data          0x00000000        0x0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring_digital.c.o)
+ .bss           0x00000000        0x0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring_digital.c.o)
+ .text.digitalRead
+                0x00000000       0x52 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring_digital.c.o)
+ .progmem.data.port_to_input_PGM
+                0x00000000        0xa C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring_digital.c.o)
+ .group         0x00000000        0x8 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial.cpp.o)
+ .text          0x00000000        0x0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial.cpp.o)
+ .data          0x00000000        0x0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial.cpp.o)
+ .bss           0x00000000        0x0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial.cpp.o)
+ .text._ZN14HardwareSerial3endEv
+                0x00000000       0x44 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial.cpp.o)
+ .group         0x00000000        0x8 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial0.cpp.o)
+ .group         0x00000000        0x8 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial0.cpp.o)
+ .text          0x00000000        0x0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial0.cpp.o)
+ .data          0x00000000        0x0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial0.cpp.o)
+ .bss           0x00000000        0x0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial0.cpp.o)
+ .text._ZN5Print17availableForWriteEv
+                0x00000000        0x6 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial0.cpp.o)
+ .text._ZN5Print5flushEv
+                0x00000000        0x2 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial0.cpp.o)
+ .group         0x00000000        0x8 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+ .group         0x00000000        0x8 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+ .group         0x00000000        0x8 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+ .group         0x00000000        0x8 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+ .text          0x00000000        0x0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+ .data          0x00000000        0x0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+ .bss           0x00000000        0x0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+ .text._ZN5Print17availableForWriteEv
+                0x00000000        0x6 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+ .text._ZN5Print5flushEv
+                0x00000000        0x2 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+ .text._ZN5Print5printEPK19__FlashStringHelper
+                0x00000000       0x48 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+ .text._ZN5Print5printERK6String
+                0x00000000       0x1c C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+ .text._ZN5Print5printEc
+                0x00000000        0xe C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+ .text._ZN5Print5printERK9Printable
+                0x00000000       0x14 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+ .text._ZN5Print7printlnEPK19__FlashStringHelper
+                0x00000000       0x24 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+ .text._ZN5Print7printlnERK6String
+                0x00000000       0x24 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+ .text._ZN5Print7printlnEc
+                0x00000000       0x24 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+ .text._ZN5Print7printlnERK9Printable
+                0x00000000       0x24 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+ .text._ZN5Print5printEli
+                0x00000000       0x94 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+ .text._ZN5Print5printEii
+                0x00000000        0xe C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+ .text._ZN5Print7printlnEii
+                0x00000000       0x2e C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+ .text._ZN5Print7printlnEli
+                0x00000000       0x24 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+ .text._ZN5Print7printlnEhi
+                0x00000000       0x2e C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+ .text._ZN5Print5printEji
+                0x00000000        0xc C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+ .text._ZN5Print7printlnEmi
+                0x00000000       0x24 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+ .text._ZN5Print10printFloatEdh
+                0x00000000      0x1c4 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+ .text._ZN5Print5printEdi
+                0x00000000        0x4 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+ .text._ZN5Print7printlnEdi
+                0x00000000       0x24 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+ .rodata._ZTV5Print
+                0x00000000        0xc C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+ .text          0x00000000        0x0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(hooks.c.o)
+ .data          0x00000000        0x0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(hooks.c.o)
+ .bss           0x00000000        0x0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(hooks.c.o)
+ .text          0x00000000        0x0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(abi.cpp.o)
+ .data          0x00000000        0x0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(abi.cpp.o)
+ .bss           0x00000000        0x0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(abi.cpp.o)
+ .text.__cxa_pure_virtual
+                0x00000000        0x4 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(abi.cpp.o)
+ .text.__cxa_deleted_virtual
+                0x00000000        0x4 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(abi.cpp.o)
+ .debug_info    0x00000000       0x8a C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(abi.cpp.o)
+ .debug_abbrev  0x00000000       0x5c C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(abi.cpp.o)
+ .debug_aranges
+                0x00000000       0x28 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(abi.cpp.o)
+ .debug_ranges  0x00000000       0x18 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(abi.cpp.o)
+ .debug_line    0x00000000       0x94 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(abi.cpp.o)
+ .debug_str     0x00000000      0x152 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(abi.cpp.o)
+ .comment       0x00000000       0x12 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(abi.cpp.o)
+ .debug_frame   0x00000000       0x34 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(abi.cpp.o)
+ .text          0x00000000        0x0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_api_osek.c.o)
+ .data          0x00000000        0x0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_api_osek.c.o)
+ .bss           0x00000000        0x0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_api_osek.c.o)
+ .text.DisableAllInterrupts
+                0x00000000       0x12 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_api_osek.c.o)
+ .text.EnableAllInterrupts
+                0x00000000       0x1e C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_api_osek.c.o)
+ .text.SuspendAllInterrupts
+                0x00000000       0x22 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_api_osek.c.o)
+ .text.ResumeAllInterrupts
+                0x00000000       0x1c C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_api_osek.c.o)
+ .text.SuspendOSInterrupts
+                0x00000000       0x22 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_api_osek.c.o)
+ .text.ResumeOSInterrupts
+                0x00000000       0x1c C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_api_osek.c.o)
+ .text.GetActiveApplicationMode
+                0x00000000       0x18 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_api_osek.c.o)
+ .text.ChainTask
+                0x00000000       0x96 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_api_osek.c.o)
+ .text.Schedule
+                0x00000000       0x50 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_api_osek.c.o)
+ .text.ShutdownOS
+                0x00000000       0x34 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_api_osek.c.o)
+ .text.GetTaskID
+                0x00000000       0x58 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_api_osek.c.o)
+ .text.GetTaskState
+                0x00000000       0x7a C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_api_osek.c.o)
+ .text          0x00000000        0x0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_sched_entry_points.c.o)
+ .data          0x00000000        0x0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_sched_entry_points.c.o)
+ .bss           0x00000000        0x0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_sched_entry_points.c.o)
+ .text          0x00000000        0x0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_sched_partitioned.c.o)
+ .data          0x00000000        0x0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_sched_partitioned.c.o)
+ .bss           0x00000000        0x0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_sched_partitioned.c.o)
+ .text.osEE_scheduler_task_block_current
+                0x00000000       0x4c C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_sched_partitioned.c.o)
+ .text.osEE_scheduler_task_unblocked
+                0x00000000       0x62 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_sched_partitioned.c.o)
+ .text.osEE_scheduler_task_preemption_point
+                0x00000000       0x32 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_sched_partitioned.c.o)
+ .text.osEE_scheduler_task_set_running
+                0x00000000       0x50 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_sched_partitioned.c.o)
+ .text          0x00000000        0x0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_std_change_context.c.o)
+ .data          0x00000000        0x0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_std_change_context.c.o)
+ .bss           0x00000000        0x0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_std_change_context.c.o)
+ .text          0x00000000        0x0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_atmega_intvect.c.o)
+ .data          0x00000000        0x0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_atmega_intvect.c.o)
+ .bss           0x00000000        0x0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_atmega_intvect.c.o)
+ .data          0x00000000        0x0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_avr8_asm.S.o)
+ .bss           0x00000000        0x0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_avr8_asm.S.o)
+ .avr.prop      0x00000000       0x3a C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_avr8_asm.S.o)
+ .text          0x00000000        0x0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_scheduler.c.o)
+ .data          0x00000000        0x0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_scheduler.c.o)
+ .bss           0x00000000        0x0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_scheduler.c.o)
+ .text          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .data          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .bss           0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .text.avr-libc.fplib
+                0x00000000        0xe c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .text          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .data          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .bss           0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .text.avr-libc.fplib
+                0x00000000       0xcc c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .text          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+ .data          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+ .bss           0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+ .text.avr-libc.fplib
+                0x00000000        0xa c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+ .text          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .data          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .bss           0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .text.avr-libc.fplib
+                0x00000000        0x8 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .text          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .data          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .bss           0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .text.avr-libc.fplib
+                0x00000000       0xdc c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .text          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .data          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .bss           0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .text.avr-libc.fplib
+                0x00000000       0x5e c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .text          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .data          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .bss           0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .text.avr-libc.fplib
+                0x00000000       0x7a c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .text          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+ .data          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+ .bss           0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+ .text.avr-libc.fplib
+                0x00000000       0x48 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+ .text          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .data          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .bss           0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .text.avr-libc.fplib
+                0x00000000        0xc c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .text          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .data          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .bss           0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .text.avr-libc.fplib
+                0x00000000        0x6 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .text          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .data          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .bss           0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .text.avr-libc.fplib
+                0x00000000        0xe c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .text          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .data          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .bss           0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .text.avr-libc.fplib
+                0x00000000        0xe c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .text          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .data          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .bss           0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .text.avr-libc.fplib
+                0x00000000       0x22 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .text          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .data          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .bss           0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .text.avr-libc.fplib
+                0x00000000       0x44 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .text          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .data          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .bss           0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .text.avr-libc.fplib
+                0x00000000        0xe c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .text          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(gesf2.o)
+ .data          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(gesf2.o)
+ .bss           0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(gesf2.o)
+ .text.avr-libc.fplib
+                0x00000000        0xa c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(gesf2.o)
+ .text          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .data          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .bss           0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .text.avr-libc.fplib
+                0x00000000        0x8 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .text          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .data          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .bss           0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .text.avr-libc.fplib
+                0x00000000       0xd2 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .text          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(unordsf2.o)
+ .data          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(unordsf2.o)
+ .bss           0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(unordsf2.o)
+ .text.avr-libc.fplib
+                0x00000000        0xa c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(unordsf2.o)
+ .text          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_udivmodsi4.o)
+ .data          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_udivmodsi4.o)
+ .bss           0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc   0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_udivmodsi4.o)
+ .text          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
+ .data          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_tablejump2.o)
+ .data          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_tablejump2.o)
+ .bss           0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_tablejump2.o)
+ .text          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_copy_data.o)
+ .data          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_ctors.o)
+ .data          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_ctors.o)
+ .bss           0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_ctors.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_ctors.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_ctors.o)
+ .text.libgcc   0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_ctors.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_ctors.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_ctors.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_ctors.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_ctors.o)
+ .text          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(abort.o)
+ .data          0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(abort.o)
+ .bss           0x00000000        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(abort.o)
+ .text.avr-libc
+                0x00000000        0xa c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(abort.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000003         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+LOAD obj/SPI.cpp.o
+LOAD obj/code.cpp.o
+LOAD obj/ee_applcfg.c.o
+LOAD obj/mcp_can.cpp.o
+LOAD obj/tasks.cpp.o
+START GROUP
+LOAD C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a
+LOAD C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a
+END GROUP
+LOAD c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a
+START GROUP
+LOAD c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a
+LOAD c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a
+LOAD c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a
+LOAD c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libatmega328p.a
+END GROUP
+                0x00020000                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x20000
+                0x0000ffa0                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                0x00010000                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x00000003]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x00000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x00000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x00000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x1a32
+ *(.vectors)
+ .vectors       0x00000000       0x68 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+ .progmem.gcc_sw_table._ZN7MCP_CAN18mcp2515_configRateEhh
+                0x00000068       0x48 obj/mcp_can.cpp.o
+                0x000000b0                . = ALIGN (0x2)
+                0x000000b0                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000000b0        0x0 linker stubs
+ *(.trampolines*)
+                0x000000b0                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem*)
+ .progmem.data.digital_pin_to_timer_PGM
+                0x000000b0       0x14 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring_digital.c.o)
+                0x000000b0                digital_pin_to_timer_PGM
+ .progmem.data.digital_pin_to_bit_mask_PGM
+                0x000000c4       0x14 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring_digital.c.o)
+                0x000000c4                digital_pin_to_bit_mask_PGM
+ .progmem.data.digital_pin_to_port_PGM
+                0x000000d8       0x14 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring_digital.c.o)
+                0x000000d8                digital_pin_to_port_PGM
+ .progmem.data.port_to_output_PGM
+                0x000000ec        0xa C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring_digital.c.o)
+                0x000000ec                port_to_output_PGM
+ .progmem.data.port_to_mode_PGM
+                0x000000f6        0xa C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring_digital.c.o)
+                0x000000f6                port_to_mode_PGM
+                0x00000100                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000100                __ctors_start = .
+ *(.ctors)
+ .ctors         0x00000100        0x2 obj/code.cpp.o
+ .ctors         0x00000102        0x2 obj/tasks.cpp.o
+ .ctors         0x00000104        0x2 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial0.cpp.o)
+                0x00000106                __ctors_end = .
+                0x00000106                __dtors_start = .
+ *(.dtors)
+                0x00000106                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000106        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+                0x00000106                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000106        0xc c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000112       0x16 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_copy_data.o)
+                0x00000112                __do_copy_data
+ .init4         0x00000128       0x10 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_clear_bss.o)
+                0x00000128                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ .init6         0x00000138       0x16 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_ctors.o)
+                0x00000138                __do_global_ctors
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000014e        0x8 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+ *(.init9)
+ *(.text)
+ .text          0x00000156        0x4 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+                0x00000156                __vector_22
+                0x00000156                __vector_1
+                0x00000156                __vector_24
+                0x00000156                __vector_12
+                0x00000156                __bad_interrupt
+                0x00000156                __vector_6
+                0x00000156                __vector_3
+                0x00000156                __vector_23
+                0x00000156                __vector_25
+                0x00000156                __vector_11
+                0x00000156                __vector_13
+                0x00000156                __vector_17
+                0x00000156                __vector_7
+                0x00000156                __vector_5
+                0x00000156                __vector_4
+                0x00000156                __vector_9
+                0x00000156                __vector_2
+                0x00000156                __vector_21
+                0x00000156                __vector_15
+                0x00000156                __vector_8
+                0x00000156                __vector_14
+                0x00000156                __vector_10
+                0x00000156                __vector_20
+ *fill*         0x0000015a        0x2 
+ .text          0x0000015c       0xe4 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_avr8_asm.S.o)
+                0x0000015c                osEE_hal_save_ctx_and_restore_ctx
+                0x0000019c                osEE_hal_restore_ctx
+                0x000001dc                osEE_hal_ready2stacked
+                0x000001ec                osEE_hal_save_ctx_and_ready2stacked
+                0x0000022c                osEE_hal_terminate_ctx
+                0x00000240                . = ALIGN (0x2)
+ *(.text.*)
+ .text._ZN8SPIClass5beginEv
+                0x00000240       0x6c obj/SPI.cpp.o
+                0x00000240                _ZN8SPIClass5beginEv
+ .text.loop     0x000002ac       0x4c obj/code.cpp.o
+                0x000002ac                loop
+ .text.setup    0x000002f8       0x5e obj/code.cpp.o
+                0x000002f8                setup
+ .text.idle_hook
+                0x00000356       0x12 obj/code.cpp.o
+                0x00000356                idle_hook
+ .text.startup.main
+                0x00000368       0x14 obj/code.cpp.o
+                0x00000368                main
+ .text.startup._GLOBAL__sub_I_led
+                0x0000037c        0xa obj/code.cpp.o
+ .text._ZN8SPIClass16beginTransactionE11SPISettings
+                0x00000386       0x34 obj/mcp_can.cpp.o
+                0x00000386                _ZN8SPIClass16beginTransactionE11SPISettings
+ .text._ZN8SPIClass8transferEh
+                0x000003ba        0xe obj/mcp_can.cpp.o
+                0x000003ba                _ZN8SPIClass8transferEh
+ .text._ZN8SPIClass14endTransactionEv
+                0x000003c8       0x22 obj/mcp_can.cpp.o
+                0x000003c8                _ZN8SPIClass14endTransactionEv
+ .text._ZN7MCP_CAN13mcp2515_resetEv
+                0x000003ea       0x38 obj/mcp_can.cpp.o
+                0x000003ea                _ZN7MCP_CAN13mcp2515_resetEv
+ .text._ZN7MCP_CAN20mcp2515_readRegisterEh
+                0x00000422       0x44 obj/mcp_can.cpp.o
+                0x00000422                _ZN7MCP_CAN20mcp2515_readRegisterEh
+ .text._ZN7MCP_CAN19mcp2515_setRegisterEhh
+                0x00000466       0x56 obj/mcp_can.cpp.o
+                0x00000466                _ZN7MCP_CAN19mcp2515_setRegisterEhh
+ .text._ZN7MCP_CAN22mcp2515_modifyRegisterEhhh
+                0x000004bc       0x62 obj/mcp_can.cpp.o
+                0x000004bc                _ZN7MCP_CAN22mcp2515_modifyRegisterEhhh
+ .text._ZN7MCP_CAN18mcp2515_readStatusEv
+                0x0000051e       0x3c obj/mcp_can.cpp.o
+                0x0000051e                _ZN7MCP_CAN18mcp2515_readStatusEv
+ .text._ZN7MCP_CAN23mcp2515_setCANCTRL_ModeEh
+                0x0000055a       0x30 obj/mcp_can.cpp.o
+                0x0000055a                _ZN7MCP_CAN23mcp2515_setCANCTRL_ModeEh
+ .text._ZN7MCP_CAN18mcp2515_configRateEhh
+                0x0000058a      0x138 obj/mcp_can.cpp.o
+                0x0000058a                _ZN7MCP_CAN18mcp2515_configRateEhh
+ .text._ZN7MCP_CAN22mcp2515_initCANBuffersEv
+                0x000006c2       0x4c obj/mcp_can.cpp.o
+                0x000006c2                _ZN7MCP_CAN22mcp2515_initCANBuffersEv
+ .text._ZN7MCP_CAN12mcp2515_initEhh
+                0x0000070e       0xba obj/mcp_can.cpp.o
+                0x0000070e                _ZN7MCP_CAN12mcp2515_initEhh
+ .text._ZN7MCP_CAN19mcp2515_read_canMsgEhPVmPVhS3_S3_S3_
+                0x000007c8      0x16c obj/mcp_can.cpp.o
+                0x000007c8                _ZN7MCP_CAN19mcp2515_read_canMsgEhPVmPVhS3_S3_S3_
+ .text._ZN7MCP_CAN7init_CSEh
+                0x00000934       0x26 obj/mcp_can.cpp.o
+                0x00000934                _ZN7MCP_CAN7init_CSEh
+ .text._ZN7MCP_CANC2Eh
+                0x0000095a       0x10 obj/mcp_can.cpp.o
+                0x0000095a                _ZN7MCP_CANC2Eh
+                0x0000095a                _ZN7MCP_CANC1Eh
+ .text._ZN7MCP_CAN5beginEhh
+                0x0000096a       0x3c obj/mcp_can.cpp.o
+                0x0000096a                _ZN7MCP_CAN5beginEhh
+ .text._ZN7MCP_CAN12readMsgBufIDEhPVmPVhS3_S3_S3_
+                0x000009a6       0x7e obj/mcp_can.cpp.o
+                0x000009a6                _ZN7MCP_CAN12readMsgBufIDEhPVmPVhS3_S3_S3_
+ .text._ZN7MCP_CAN14readRxTxStatusEv
+                0x00000a24       0x32 obj/mcp_can.cpp.o
+                0x00000a24                _ZN7MCP_CAN14readRxTxStatusEv
+ .text._ZN7MCP_CAN10readMsgBufEPhS0_
+                0x00000a56       0x42 obj/mcp_can.cpp.o
+                0x00000a56                _ZN7MCP_CAN10readMsgBufEPhS0_
+ .text._ZN7MCP_CAN12checkReceiveEv
+                0x00000a98       0x10 obj/mcp_can.cpp.o
+                0x00000a98                _ZN7MCP_CAN12checkReceiveEv
+ .text._ZN7MCP_CAN8getCanIdEv
+                0x00000aa8        0xc obj/mcp_can.cpp.o
+                0x00000aa8                _ZN7MCP_CAN8getCanIdEv
+ .text.FuncTaskL1
+                0x00000ab4      0x110 obj/tasks.cpp.o
+                0x00000ab4                FuncTaskL1
+ .text.startup._GLOBAL__sub_I_TaskL1_count
+                0x00000bc4        0xa obj/tasks.cpp.o
+ .text.FuncTaskL2
+                0x00000bce       0x5a obj/tasks.cpp.o
+                0x00000bce                FuncTaskL2
+ .text.__vector_16
+                0x00000c28       0x94 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring.c.o)
+                0x00000c28                __vector_16
+ .text.micros   0x00000cbc       0x4a C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring.c.o)
+                0x00000cbc                micros
+ .text.delay    0x00000d06       0x78 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring.c.o)
+                0x00000d06                delay
+ .text.init     0x00000d7e       0x76 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring.c.o)
+                0x00000d7e                init
+ .text.turnOffPWM
+                0x00000df4       0x52 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring_digital.c.o)
+ .text.pinMode  0x00000e46       0x78 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring_digital.c.o)
+                0x00000e46                pinMode
+ .text.digitalWrite
+                0x00000ebe       0x60 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring_digital.c.o)
+                0x00000ebe                digitalWrite
+ .text._ZN14HardwareSerial9availableEv
+                0x00000f1e       0x18 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial.cpp.o)
+                0x00000f1e                _ZN14HardwareSerial9availableEv
+ .text._ZN14HardwareSerial4peekEv
+                0x00000f36       0x1c C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial.cpp.o)
+                0x00000f36                _ZN14HardwareSerial4peekEv
+ .text._ZN14HardwareSerial4readEv
+                0x00000f52       0x28 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial.cpp.o)
+                0x00000f52                _ZN14HardwareSerial4readEv
+ .text._ZN14HardwareSerial17availableForWriteEv
+                0x00000f7a       0x1e C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial.cpp.o)
+                0x00000f7a                _ZN14HardwareSerial17availableForWriteEv
+ .text._Z14serialEventRunv
+                0x00000f98       0x1c C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial.cpp.o)
+                0x00000f98                _Z14serialEventRunv
+ .text._ZN14HardwareSerial17_tx_udr_empty_irqEv
+                0x00000fb4       0x42 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial.cpp.o)
+                0x00000fb4                _ZN14HardwareSerial17_tx_udr_empty_irqEv
+ .text._ZN14HardwareSerial5flushEv
+                0x00000ff6       0x44 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial.cpp.o)
+                0x00000ff6                _ZN14HardwareSerial5flushEv
+ .text._ZN14HardwareSerial5writeEh
+                0x0000103a       0x8e C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial.cpp.o)
+                0x0000103a                _ZN14HardwareSerial5writeEh
+ .text._ZN14HardwareSerial5beginEmh
+                0x000010c8       0xca C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial.cpp.o)
+                0x000010c8                _ZN14HardwareSerial5beginEmh
+ .text.__vector_18
+                0x00001192       0x64 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial0.cpp.o)
+                0x00001192                __vector_18
+ .text.__vector_19
+                0x000011f6       0x4c C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial0.cpp.o)
+                0x000011f6                __vector_19
+ .text._Z17Serial0_availablev
+                0x00001242       0x14 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial0.cpp.o)
+                0x00001242                _Z17Serial0_availablev
+ .text.startup._GLOBAL__sub_I___vector_18
+                0x00001256       0x5a C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial0.cpp.o)
+ .text._ZN5Print5writeEPKhj
+                0x000012b0       0x56 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+                0x000012b0                _ZN5Print5writeEPKhj
+ .text._ZN5Print5writeEPKc
+                0x00001306       0x2a C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+                0x00001306                _ZN5Print5writeEPKc
+ .text._ZN5Print5printEPKc
+                0x00001330        0x4 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+                0x00001330                _ZN5Print5printEPKc
+ .text._ZN5Print7printlnEv
+                0x00001334        0x8 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+                0x00001334                _ZN5Print7printlnEv
+ .text._ZN5Print7printlnEPKc
+                0x0000133c       0x24 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+                0x0000133c                _ZN5Print7printlnEPKc
+ .text._ZN5Print11printNumberEmh
+                0x00001360       0x92 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+                0x00001360                _ZN5Print11printNumberEmh
+ .text._ZN5Print5printEmi
+                0x000013f2       0x1a C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+                0x000013f2                _ZN5Print5printEmi
+ .text._ZN5Print5printEhi
+                0x0000140c        0xe C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+                0x0000140c                _ZN5Print5printEhi
+ .text._ZN5Print7printlnEji
+                0x0000141a       0x2c C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+                0x0000141a                _ZN5Print7printlnEji
+ .text.__empty  0x00001446        0x2 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(hooks.c.o)
+                0x00001446                yield
+ .text.StartOS  0x00001448       0x72 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_api_osek.c.o)
+                0x00001448                StartOS
+ .text.ActivateTask
+                0x000014ba       0x50 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_api_osek.c.o)
+                0x000014ba                ActivateTask
+ .text.TerminateTask
+                0x0000150a       0x1e C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_api_osek.c.o)
+                0x0000150a                TerminateTask
+ .text.osEE_scheduler_task_end
+                0x00001528       0x30 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_sched_entry_points.c.o)
+                0x00001528                osEE_scheduler_task_end
+ .text.osEE_scheduler_task_wrapper_restore
+                0x00001558        0x2 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_sched_entry_points.c.o)
+                0x00001558                osEE_scheduler_task_wrapper_restore
+ .text.osEE_scheduler_task_wrapper_run
+                0x0000155a       0x24 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_sched_entry_points.c.o)
+                0x0000155a                osEE_scheduler_task_wrapper_run
+ .text.osEE_idle_hook_wrapper
+                0x0000157e       0x40 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_sched_entry_points.c.o)
+                0x0000157e                osEE_idle_hook_wrapper
+ .text.osEE_scheduler_task_activated
+                0x000015be       0xce C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_sched_partitioned.c.o)
+                0x000015be                osEE_scheduler_task_activated
+ .text.osEE_scheduler_task_terminated
+                0x0000168c       0xf4 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_sched_partitioned.c.o)
+                0x0000168c                osEE_scheduler_task_terminated
+ .text.osEE_change_context_from_running
+                0x00001780       0x38 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_std_change_context.c.o)
+                0x00001780                osEE_change_context_from_running
+ .text.osEE_change_context_from_task_end
+                0x000017b8       0x2e C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_std_change_context.c.o)
+                0x000017b8                osEE_change_context_from_task_end
+ .text.osEE_idle_task_terminate
+                0x000017e6       0x36 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_std_change_context.c.o)
+                0x000017e6                osEE_idle_task_terminate
+ .text.__vector_default
+                0x0000181c        0x4 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_atmega_intvect.c.o)
+                0x0000181c                tag___vector_default
+                0x0000181c                __vector_default
+ .text.osEE_atmega_intvect
+                0x00001820        0x4 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_atmega_intvect.c.o)
+                0x00001820                osEE_atmega_intvect
+ .text.osEE_scheduler_core_rq_preempt_stk
+                0x00001824       0xae C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_scheduler.c.o)
+                0x00001824                osEE_scheduler_core_rq_preempt_stk
+ .text.osEE_sn_priority_insert
+                0x000018d2       0xaa C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_scheduler.c.o)
+                0x000018d2                osEE_sn_priority_insert
+ .text.osEE_scheduler_rq_insert
+                0x0000197c        0xe C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_scheduler.c.o)
+                0x0000197c                osEE_scheduler_rq_insert
+ .text.osEE_scheduler_core_pop_running
+                0x0000198a       0x54 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_scheduler.c.o)
+                0x0000198a                osEE_scheduler_core_pop_running
+ .text.libgcc.div
+                0x000019de       0x44 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_udivmodsi4.o)
+                0x000019de                __udivmodsi4
+ .text.libgcc   0x00001a22        0xc c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_tablejump2.o)
+                0x00001a22                __tablejump2__
+                0x00001a2e                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00001a2e        0x0 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
+                0x00001a2e                _exit
+                0x00001a2e                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00001a2e        0x4 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00001a32                _etext = .
+
+.data           0x00800100      0x264 load address 0x00001a32
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ *(.data*)
+ .data.led      0x00800100        0x2 obj/code.cpp.o
+                0x00800100                led
+ .data.CCB      0x00800102       0x12 obj/ee_applcfg.c.o
+                0x00800102                CCB
+ .data.sn_array
+                0x00800114        0x8 obj/ee_applcfg.c.o
+                0x00800114                sn_array
+ .data.tcb_array
+                0x0080011c        0xc obj/ee_applcfg.c.o
+                0x0080011c                tcb_array
+ *(.rodata)
+ *(.rodata*)
+ .rodata.str1.1
+                0x00800128       0x4c obj/code.cpp.o
+ .rodata.KDB    0x00800174        0xa obj/ee_applcfg.c.o
+                0x00800174                KDB
+ .rodata.CDB    0x0080017e        0x6 obj/ee_applcfg.c.o
+                0x0080017e                CDB
+ .rodata.tdb_ptr_array
+                0x00800184        0x6 obj/ee_applcfg.c.o
+                0x00800184                tdb_ptr_array
+ .rodata.tdb_array
+                0x0080018a       0x2a obj/ee_applcfg.c.o
+                0x0080018a                tdb_array
+ .rodata.sdb_array
+                0x008001b4        0x4 obj/ee_applcfg.c.o
+                0x008001b4                sdb_array
+ .rodata.str1.1
+                0x008001b8      0x151 obj/mcp_can.cpp.o
+ .rodata.str1.1
+                0x00800309       0x3d obj/tasks.cpp.o
+ .rodata._ZTV14HardwareSerial
+                0x00800346       0x12 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial.cpp.o)
+                0x00800346                _ZTV14HardwareSerial
+ .rodata.str1.1
+                0x00800358        0xc C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+                                  0xf (size before relaxing)
+ *(.gnu.linkonce.d*)
+                0x00800364                . = ALIGN (0x2)
+                0x00800364                _edata = .
+                0x00800364                PROVIDE (__data_end, .)
+
+.bss            0x00800364       0xcb
+                0x00800364                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss._ZN8SPIClass13interruptSaveE
+                0x00800364        0x1 obj/SPI.cpp.o
+                0x00800364                _ZN8SPIClass13interruptSaveE
+ .bss._ZN8SPIClass13interruptMaskE
+                0x00800365        0x1 obj/SPI.cpp.o
+                0x00800365                _ZN8SPIClass13interruptMaskE
+ .bss._ZN8SPIClass13interruptModeE
+                0x00800366        0x1 obj/SPI.cpp.o
+                0x00800366                _ZN8SPIClass13interruptModeE
+ .bss._ZN8SPIClass11initializedE
+                0x00800367        0x1 obj/SPI.cpp.o
+                0x00800367                _ZN8SPIClass11initializedE
+ .bss.SPI       0x00800368        0x1 obj/SPI.cpp.o
+                0x00800368                SPI
+ .bss.old_sp    0x00800369        0x2 obj/code.cpp.o
+                0x00800369                old_sp
+ .bss.stk_wrong
+                0x0080036b        0x1 obj/code.cpp.o
+                0x0080036b                stk_wrong
+ .bss.CAN       0x0080036c        0xa obj/code.cpp.o
+                0x0080036c                CAN
+ .bss.scb_array
+                0x00800376        0x2 obj/ee_applcfg.c.o
+                0x00800376                scb_array
+ .bss.CAN_rec   0x00800378        0xa obj/tasks.cpp.o
+                0x00800378                CAN_rec
+ .bss.isr_cnt   0x00800382        0x2 obj/tasks.cpp.o
+                0x00800382                isr_cnt
+ .bss.TaskL2_count
+                0x00800384        0x2 obj/tasks.cpp.o
+                0x00800384                TaskL2_count
+ .bss.TaskL1_count
+                0x00800386        0x2 obj/tasks.cpp.o
+                0x00800386                TaskL1_count
+ .bss.timer0_fract
+                0x00800388        0x1 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring.c.o)
+ .bss.timer0_millis
+                0x00800389        0x4 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring.c.o)
+                0x00800389                timer0_millis
+ .bss.timer0_overflow_count
+                0x0080038d        0x4 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring.c.o)
+                0x0080038d                timer0_overflow_count
+ .bss.Serial    0x00800391       0x9d C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial0.cpp.o)
+                0x00800391                Serial
+ *(COMMON)
+ COMMON         0x0080042e        0x1 obj/ee_applcfg.c.o
+                0x0080042e                KCB
+                0x0080042f                PROVIDE (__bss_end, .)
+                0x00001a32                __data_load_start = LOADADDR (.data)
+                0x00001c96                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0080042f        0x0
+                [!provide]                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                [!provide]                PROVIDE (__noinit_end, .)
+                0x0080042f                _end = .
+                [!provide]                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x11
+ *(.comment)
+ .comment       0x00000000       0x11 obj/SPI.cpp.o
+                                 0x12 (size before relaxing)
+ .comment       0x00000011       0x12 obj/code.cpp.o
+ .comment       0x00000011       0x12 obj/ee_applcfg.c.o
+ .comment       0x00000011       0x12 obj/mcp_can.cpp.o
+ .comment       0x00000011       0x12 obj/tasks.cpp.o
+ .comment       0x00000011       0x12 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring.c.o)
+ .comment       0x00000011       0x12 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring_digital.c.o)
+ .comment       0x00000011       0x12 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial.cpp.o)
+ .comment       0x00000011       0x12 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial0.cpp.o)
+ .comment       0x00000011       0x12 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+ .comment       0x00000011       0x12 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(hooks.c.o)
+ .comment       0x00000011       0x12 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_api_osek.c.o)
+ .comment       0x00000011       0x12 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_sched_entry_points.c.o)
+ .comment       0x00000011       0x12 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_sched_partitioned.c.o)
+ .comment       0x00000011       0x12 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_std_change_context.c.o)
+ .comment       0x00000011       0x12 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_atmega_intvect.c.o)
+ .comment       0x00000011       0x12 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_scheduler.c.o)
+
+.note.gnu.avr.deviceinfo
+                0x00000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x00000000       0x40 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x410
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x48 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring.c.o)
+ .debug_aranges
+                0x00000048       0x38 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring_digital.c.o)
+ .debug_aranges
+                0x00000080       0x68 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial.cpp.o)
+ .debug_aranges
+                0x000000e8       0x48 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial0.cpp.o)
+ .debug_aranges
+                0x00000130      0x100 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+ .debug_aranges
+                0x00000230       0x20 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(hooks.c.o)
+ .debug_aranges
+                0x00000250       0x90 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_api_osek.c.o)
+ .debug_aranges
+                0x000002e0       0x38 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_sched_entry_points.c.o)
+ .debug_aranges
+                0x00000318       0x48 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_sched_partitioned.c.o)
+ .debug_aranges
+                0x00000360       0x30 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_std_change_context.c.o)
+ .debug_aranges
+                0x00000390       0x28 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_atmega_intvect.c.o)
+ .debug_aranges
+                0x000003b8       0x20 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_avr8_asm.S.o)
+ .debug_aranges
+                0x000003d8       0x38 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_scheduler.c.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0xc129
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x5f4 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+ .debug_info    0x000005f4      0x2c4 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring.c.o)
+ .debug_info    0x000008b8      0x5f5 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring_digital.c.o)
+ .debug_info    0x00000ead     0x1e35 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial.cpp.o)
+ .debug_info    0x00002ce2     0x1ac7 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial0.cpp.o)
+ .debug_info    0x000047a9     0x2a7c C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+ .debug_info    0x00007225       0x3a C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(hooks.c.o)
+ .debug_info    0x0000725f     0x17e8 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_api_osek.c.o)
+ .debug_info    0x00008a47      0xabc C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_sched_entry_points.c.o)
+ .debug_info    0x00009503      0xf4d C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_sched_partitioned.c.o)
+ .debug_info    0x0000a450      0x95f C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_std_change_context.c.o)
+ .debug_info    0x0000adaf      0x777 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_atmega_intvect.c.o)
+ .debug_info    0x0000b526       0x96 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_avr8_asm.S.o)
+ .debug_info    0x0000b5bc      0xb6d C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_scheduler.c.o)
+
+.debug_abbrev   0x00000000     0x23f6
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x5a2 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+ .debug_abbrev  0x000005a2      0x143 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring.c.o)
+ .debug_abbrev  0x000006e5      0x159 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring_digital.c.o)
+ .debug_abbrev  0x0000083e      0x478 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial.cpp.o)
+ .debug_abbrev  0x00000cb6      0x3dd C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial0.cpp.o)
+ .debug_abbrev  0x00001093      0x498 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+ .debug_abbrev  0x0000152b       0x28 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(hooks.c.o)
+ .debug_abbrev  0x00001553      0x3d2 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_api_osek.c.o)
+ .debug_abbrev  0x00001925      0x2d5 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_sched_entry_points.c.o)
+ .debug_abbrev  0x00001bfa      0x2d1 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_sched_partitioned.c.o)
+ .debug_abbrev  0x00001ecb      0x186 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_std_change_context.c.o)
+ .debug_abbrev  0x00002051      0x111 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_atmega_intvect.c.o)
+ .debug_abbrev  0x00002162       0x14 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_avr8_asm.S.o)
+ .debug_abbrev  0x00002176      0x280 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_scheduler.c.o)
+
+.debug_line     0x00000000     0x260a
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000       0x1a c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+ .debug_line    0x0000001a      0x241 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring.c.o)
+ .debug_line    0x0000025b      0x20a C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring_digital.c.o)
+ .debug_line    0x00000465      0x3ab C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial.cpp.o)
+ .debug_line    0x00000810      0x211 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial0.cpp.o)
+ .debug_line    0x00000a21      0x620 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+ .debug_line    0x00001041       0x6c C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(hooks.c.o)
+ .debug_line    0x000010ad      0x6a5 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_api_osek.c.o)
+ .debug_line    0x00001752      0x27d C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_sched_entry_points.c.o)
+ .debug_line    0x000019cf      0x420 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_sched_partitioned.c.o)
+ .debug_line    0x00001def      0x242 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_std_change_context.c.o)
+ .debug_line    0x00002031      0x19e C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_atmega_intvect.c.o)
+ .debug_line    0x000021cf       0xed C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_avr8_asm.S.o)
+ .debug_line    0x000022bc      0x34e C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_scheduler.c.o)
+
+.debug_frame    0x00000000      0xb18
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xc4 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring.c.o)
+ .debug_frame   0x000000c4       0x7c C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring_digital.c.o)
+ .debug_frame   0x00000140      0x110 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial.cpp.o)
+ .debug_frame   0x00000250       0xe0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial0.cpp.o)
+ .debug_frame   0x00000330      0x3b0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+ .debug_frame   0x000006e0       0x24 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(hooks.c.o)
+ .debug_frame   0x00000704      0x160 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_api_osek.c.o)
+ .debug_frame   0x00000864       0x78 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_sched_entry_points.c.o)
+ .debug_frame   0x000008dc      0x114 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_sched_partitioned.c.o)
+ .debug_frame   0x000009f0       0x44 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_std_change_context.c.o)
+ .debug_frame   0x00000a34       0x34 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_atmega_intvect.c.o)
+ .debug_frame   0x00000a68       0xb0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_scheduler.c.o)
+
+.debug_str      0x00000000     0x30a3
+ *(.debug_str)
+ .debug_str     0x00000000      0x208 c:/progra~2/arduino/hardware/tools/avr/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
+ .debug_str     0x00000208      0x182 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring.c.o)
+                                0x1c8 (size before relaxing)
+ .debug_str     0x0000038a      0x11d C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring_digital.c.o)
+                                0x22d (size before relaxing)
+ .debug_str     0x000004a7     0x1207 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial.cpp.o)
+                               0x1318 (size before relaxing)
+ .debug_str     0x000016ae       0xe7 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial0.cpp.o)
+                               0x115b (size before relaxing)
+ .debug_str     0x00001795      0x3d6 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+                                0xfd0 (size before relaxing)
+ .debug_str     0x00001b6b       0x47 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(hooks.c.o)
+                                 0xbd (size before relaxing)
+ .debug_str     0x00001bb2      0xe0e C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_api_osek.c.o)
+                               0x103a (size before relaxing)
+ .debug_str     0x000029c0      0x175 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_sched_entry_points.c.o)
+                                0x9ee (size before relaxing)
+ .debug_str     0x00002b35      0x2ea C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_sched_partitioned.c.o)
+                                0xb00 (size before relaxing)
+ .debug_str     0x00002e1f       0xc1 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_std_change_context.c.o)
+                                0x8bb (size before relaxing)
+ .debug_str     0x00002ee0       0x6c C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_atmega_intvect.c.o)
+                                0x7cf (size before relaxing)
+ .debug_str     0x00002f4c      0x157 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_scheduler.c.o)
+                                0x97e (size before relaxing)
+
+.debug_loc      0x00000000     0x4800
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x269 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring.c.o)
+ .debug_loc     0x00000269      0x5e3 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring_digital.c.o)
+ .debug_loc     0x0000084c      0x497 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial.cpp.o)
+ .debug_loc     0x00000ce3      0x187 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial0.cpp.o)
+ .debug_loc     0x00000e6a     0x1f0f C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+ .debug_loc     0x00002d79      0x65a C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_api_osek.c.o)
+ .debug_loc     0x000033d3      0x118 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_sched_entry_points.c.o)
+ .debug_loc     0x000034eb      0xa0d C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_sched_partitioned.c.o)
+ .debug_loc     0x00003ef8      0x2dc C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_std_change_context.c.o)
+ .debug_loc     0x000041d4      0x62c C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_scheduler.c.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x3d8
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x38 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring.c.o)
+ .debug_ranges  0x00000038       0x28 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(wiring_digital.c.o)
+ .debug_ranges  0x00000060       0x70 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial.cpp.o)
+ .debug_ranges  0x000000d0       0x38 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(HardwareSerial0.cpp.o)
+ .debug_ranges  0x00000108      0x138 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(Print.cpp.o)
+ .debug_ranges  0x00000240       0x10 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libarduinosdk.a(hooks.c.o)
+ .debug_ranges  0x00000250       0xb0 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_api_osek.c.o)
+ .debug_ranges  0x00000300       0x40 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_sched_entry_points.c.o)
+ .debug_ranges  0x00000340       0x38 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_sched_partitioned.c.o)
+ .debug_ranges  0x00000378       0x20 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_std_change_context.c.o)
+ .debug_ranges  0x00000398       0x18 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_atmega_intvect.c.o)
+ .debug_ranges  0x000003b0       0x28 C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\lib\libee.a(ee_oo_scheduler.c.o)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(arduino.elf elf32-avr)
+LOAD linker stubs
