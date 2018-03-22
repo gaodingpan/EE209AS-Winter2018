@@ -101,7 +101,7 @@ docs: $(OS_EE_BASE_DIR)/mk/ee.mk
 	@$(MAKE) -C $(OS_EE_BASE_DIR)/doc docs
 
 
-export  ARDUINO_PORT        = COM6
+export  ARDUINO_PORT        = COM5
 export  ARDUINO_BAUDRATE    = 115200
 export  ARDUINO_MCU         = atmega328p
 export  ARDUINO_SDK_FILES   = $(shell cygpath -ms "C:\Program Files (x86)\Arduino")

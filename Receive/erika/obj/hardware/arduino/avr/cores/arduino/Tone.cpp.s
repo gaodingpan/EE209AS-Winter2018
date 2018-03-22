@@ -1298,9 +1298,9 @@ timer0_toggle_count:
 	.zero	4
 	.text
 .Letext0:
-	.file 2 "C:\\PROGRA~2\\Arduino/hardware/arduino/avr/cores/arduino/stdint.h"
+	.file 2 "c:\\progra~2\\arduino\\hardware\\tools\\avr\\avr\\include\\stdint.h"
 	.file 3 "C:\\PROGRA~2\\Arduino\\hardware\\arduino\\avr\\cores\\arduino\\Arduino.h"
-	.file 4 "C:\\PROGRA~2\\Arduino\\hardware\\arduino\\avr\\cores\\arduino\\pins_arduino.h"
+	.file 4 "C:\\PROGRA~2\\Arduino/hardware/arduino/avr/variants/standard/pins_arduino.h"
 	.file 5 "C:\\PROGRA~2\\Arduino\\hardware\\arduino\\avr\\cores\\arduino\\Stream.h"
 	.section	.debug_info,"",@progbits
 .Ldebug_info0:
@@ -4156,12 +4156,12 @@ timer0_toggle_count:
 	.string	"__result"
 .LASF55:
 	.string	"_Z4tonehjm"
+.LASF51:
+	.string	"D:\\\\Users\\\\dingg\\\\eclipse_workspace\\\\EE209AS-Winter2018\\\\Receive\\\\erika"
 .LASF25:
 	.string	"duration"
 .LASF48:
 	.string	"pinMode"
-.LASF51:
-	.string	"C:\\\\Users\\\\dingg\\\\ECLIPS~1\\\\EE209A~1\\\\Receive\\\\erika"
 .LASF6:
 	.string	"unsigned int"
 .LASF35:

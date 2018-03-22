@@ -323,9 +323,9 @@ intFunc:
 	.word	gs(nothing)
 	.text
 .Letext0:
-	.file 2 "C:\\PROGRA~2\\Arduino/hardware/arduino/avr/cores/arduino/stdint.h"
+	.file 2 "c:\\progra~2\\arduino\\hardware\\tools\\avr\\avr\\include\\stdint.h"
 	.file 3 "C:\\PROGRA~2\\Arduino\\hardware\\arduino\\avr\\cores\\arduino\\wiring_private.h"
-	.file 4 "C:\\PROGRA~2\\Arduino\\hardware\\arduino\\avr\\cores\\arduino\\pins_arduino.h"
+	.file 4 "C:\\PROGRA~2\\Arduino/hardware/arduino/avr/variants/standard/pins_arduino.h"
 	.section	.debug_info,"",@progbits
 .Ldebug_info0:
 	.long	0x20f

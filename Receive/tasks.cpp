@@ -56,21 +56,25 @@
 #include "mcp_can.h"
 #include "SPI.h"
 
+#define DIS_ID 0x00
+#define TEMP_ID 0x01
+#define DEPTH_ID 0x02
+#define BREAK_THRES 100
+
 extern "C" {
 //MCP_CAN CAN(10);
 
 DeclareTask(TaskL1);
-DeclareTask(TaskL2);
 
 #if (defined(OSEE_API_DYNAMIC))
 extern TaskType TaskL1;
-extern TaskType TaskL2;
 #endif /* OSEE_API_DYNAMIC */
 
 extern int led;
 
 unsigned int volatile TaskL1_count;
-unsigned int volatile TaskL2_count;
+unsigned int volatile dis_cur, dis_change, temp;
+extern unsigned int volatile dis_prev;
 
 extern boolean stk_wrong;
 
@@ -89,40 +93,57 @@ TASK(TaskL1)
     if(CAN_MSGAVAIL == CAN_rec.checkReceive()) {
     	CAN_rec.readMsgBuf(&len, buf);
     	unsigned int canId = CAN_rec.getCanId();
-
-    	        Serial.println("-----------------------------");
-    	        Serial.print("Get data from ID: ");
-    	        Serial.println(canId, HEX);
-
-    	        for(int i = 0; i<len; i++)    // print the data
-    	        {
-    	            Serial.print(buf[i], HEX);
-    	            Serial.print("\t");
-    	        }
-    	        Serial.println();
+    	switch (canId) {
+    	  case DIS_ID:
+    		  dis_cur = (unsigned int) buf;
+    	      dis_change = dis_prev - dis_cur;
+    	      if(dis_change > 0) {
+    	    	  if(dis_change < BREAK_THRES) {
+    	    		  Serial.println("Recommended Control Change: Gas Down");
+    	    	  } else {
+    	    		  Serial.println("Recommended Control Change: Bread");
+    	    	  }
+    	      } else if(dis_change < 0) {
+    	    	  Serial.println("Recommended Control Change: Gas Up");
+    	      } else {
+    	    	  Serial.println("Recommended Control Change: Keep");
+    	      }
+    	      break;
+    	  case TEMP_ID:
+    	    temp = (unsigned int) buf;
+    	    if(temp < 60) {
+    	    	Serial.println("Car Temp Status: Cold , Warning");
+    	    } else if(temp >= 60 && temp < 85) {
+    	    	Serial.println("Car Temp Status: Cold, Fan Speed Down");
+    	    } else if(temp >= 85 && temp < 95) {
+    	    	Serial.println("Car Temp Status: Normal and Balanced");
+    	    } else if(temp >= 95 && temp < 110) {
+    	    	Serial.println("Car Temp Status: Hot, Fan Speed Up");
+    	    } else {
+    	    	Serial.println("Car Temp Status: Hot, Warning");
     	    }
+    	    break;
+    	  case DEPTH_ID:
+    		  // statements
+    		  break;
+    	  default:
+    		  Serial.println("-----------------------------");
+			  Serial.print("Get data from ID: ");
+			  Serial.println(canId, HEX);
+
+			  for(int i = 0; i<len; i++)    // print the data
+			  {
+				  Serial.print(buf[i], HEX);
+				  Serial.print("\t");
+			  }
+			  Serial.println();
+		}
+    }
+
 
   }
 
   ++TaskL1_count;
-  TerminateTask();
-};
-
-TASK(TaskL2)
-{
-  Serial.write("TASK-L2\r\n", strlen("TASK-L2\r\n"));
-
-  /* turn the LED on (HIGH is the voltage level) */
-  digitalWrite(led, HIGH);
-
-  delay(1000);	/* wait for a second */
-
-  /* turn the LED off by making the voltage LOW */
-  digitalWrite(led, LOW);
-
-  delay(1000);	/* wait for a second */
-
-  ++TaskL2_count;
   TerminateTask();
 };
 

@@ -166,6 +166,12 @@ stk_wrong:
 	.size	CAN, 10
 CAN:
 	.zero	10
+.global	dis_prev
+	.section	.data.dis_prev,"aw",@progbits
+	.type	dis_prev, @object
+	.size	dis_prev, 2
+dis_prev:
+	.word	10000
 .global	led
 	.section	.data.led,"aw",@progbits
 	.type	led, @object

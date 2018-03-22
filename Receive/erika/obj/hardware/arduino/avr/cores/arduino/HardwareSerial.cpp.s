@@ -724,14 +724,14 @@ _ZTV14HardwareSerial:
 	.text
 .Letext0:
 	.file 2 "c:\\progra~2\\arduino\\hardware\\tools\\avr\\lib\\gcc\\avr\\4.9.2\\include\\stddef.h"
-	.file 3 "C:\\PROGRA~2\\Arduino/hardware/arduino/avr/cores/arduino/stdint.h"
+	.file 3 "c:\\progra~2\\arduino\\hardware\\tools\\avr\\avr\\include\\stdint.h"
 	.file 4 "C:\\PROGRA~2\\Arduino\\hardware\\arduino\\avr\\cores\\arduino\\Arduino.h"
 	.file 5 "C:\\PROGRA~2\\Arduino\\hardware\\arduino\\avr\\cores\\arduino\\WString.h"
 	.file 6 "C:\\PROGRA~2\\Arduino\\hardware\\arduino\\avr\\cores\\arduino\\Stream.h"
 	.file 7 "C:\\PROGRA~2\\Arduino\\hardware\\arduino\\avr\\cores\\arduino\\HardwareSerial.h"
 	.file 8 "C:\\PROGRA~2\\Arduino\\hardware\\arduino\\avr\\cores\\arduino\\HardwareSerial_private.h"
 	.file 9 "C:\\PROGRA~2\\Arduino\\hardware\\arduino\\avr\\cores\\arduino\\Print.h"
-	.file 10 "C:\\PROGRA~2\\Arduino\\hardware\\arduino\\avr\\cores\\arduino\\pins_arduino.h"
+	.file 10 "C:\\PROGRA~2\\Arduino/hardware/arduino/avr/variants/standard/pins_arduino.h"
 	.file 11 "<built-in>"
 	.section	.debug_info,"",@progbits
 .Ldebug_info0:
@@ -6130,8 +6130,6 @@ _ZTV14HardwareSerial:
 	.string	"_ZN14HardwareSerialcvbEv"
 .LASF144:
 	.string	"StringSumHelper"
-.LASF37:
-	.string	"_ZN6String6concatEm"
 .LASF262:
 	.string	"_Z17Serial0_availablev"
 .LASF158:
@@ -6190,6 +6188,8 @@ _ZTV14HardwareSerial:
 	.string	"byte"
 .LASF167:
 	.string	"setTimeout"
+.LASF252:
+	.string	"D:\\\\Users\\\\dingg\\\\eclipse_workspace\\\\EE209AS-Winter2018\\\\Receive\\\\erika"
 .LASF195:
 	.string	"_ZN6Stream15readStringUntilEc"
 .LASF29:
@@ -6206,8 +6206,8 @@ _ZTV14HardwareSerial:
 	.string	"parseInt"
 .LASF104:
 	.string	"lastIndexOf"
-.LASF252:
-	.string	"C:\\\\Users\\\\dingg\\\\ECLIPS~1\\\\EE209A~1\\\\Receive\\\\erika"
+.LASF37:
+	.string	"_ZN6String6concatEm"
 .LASF100:
 	.string	"_ZNK6String7indexOfEc"
 .LASF96:

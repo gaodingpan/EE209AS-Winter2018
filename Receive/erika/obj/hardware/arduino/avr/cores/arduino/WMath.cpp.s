@@ -353,7 +353,7 @@ _Z8makeWordhh:
 	.size	_Z8makeWordhh, .-_Z8makeWordhh
 	.text
 .Letext0:
-	.file 2 "C:\\PROGRA~2\\Arduino\\hardware\\arduino\\avr\\cores\\arduino\\stdlib.h"
+	.file 2 "c:\\progra~2\\arduino\\hardware\\tools\\avr\\avr\\include\\stdlib.h"
 	.section	.debug_info,"",@progbits
 .Ldebug_info0:
 	.long	0x238

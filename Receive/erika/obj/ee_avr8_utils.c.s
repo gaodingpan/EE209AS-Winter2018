@@ -12,7 +12,7 @@ __zero_reg__ = 1
 	.type	osEE_avr8_WriteCCPReg, @function
 osEE_avr8_WriteCCPReg:
 .LFB52:
-	.file 1 "C:\\Users\\dingg\\ECLIPS~1\\EE209A~1\\Receive\\erika\\src\\ee_avr8_utils.c"
+	.file 1 "D:\\Users\\dingg\\eclipse_workspace\\EE209AS-Winter2018\\Receive\\erika\\src\\ee_avr8_utils.c"
 	.loc 1 73 0
 	.cfi_startproc
 .LVL0:
@@ -27,7 +27,7 @@ osEE_avr8_WriteCCPReg:
 .LVL1:
 	.loc 1 87 0
 /* #APP */
- ;  87 "C:\Users\dingg\ECLIPS~1\EE209A~1\Receive\erika\src\ee_avr8_utils.c" 1
+ ;  87 "D:\Users\dingg\eclipse_workspace\EE209AS-Winter2018\Receive\erika\src\ee_avr8_utils.c" 1
 	movw r30,  r24
 	ldi  r16,  216
 	out   52, r16
@@ -44,13 +44,13 @@ osEE_avr8_WriteCCPReg:
 	.size	osEE_avr8_WriteCCPReg, .-osEE_avr8_WriteCCPReg
 	.text
 .Letext0:
-	.file 2 "C:\\PROGRA~2\\Arduino/hardware/arduino/avr/cores/arduino/stdint.h"
-	.file 3 "C:\\Users\\dingg\\ECLIPS~1\\EE209A~1\\Receive\\erika\\inc/ee_platform_types.h"
-	.file 4 "C:\\Users\\dingg\\ECLIPS~1\\EE209A~1\\Receive\\erika\\inc/ee_api_types.h"
-	.file 5 "C:\\Users\\dingg\\ECLIPS~1\\EE209A~1\\Receive\\erika\\inc/ee_hal_internal_types.h"
-	.file 6 "C:\\Users\\dingg\\ECLIPS~1\\EE209A~1\\Receive\\erika\\inc/ee_scheduler_types.h"
-	.file 7 "C:\\Users\\dingg\\ECLIPS~1\\EE209A~1\\Receive\\erika\\inc/ee_kernel_types.h"
-	.file 8 "C:\\Users\\dingg\\ECLIPS~1\\EE209A~1\\Receive\\erika\\inc/ee_get_kernel_and_core.h"
+	.file 2 "c:\\progra~2\\arduino\\hardware\\tools\\avr\\avr\\include\\stdint.h"
+	.file 3 "D:\\Users\\dingg\\eclipse_workspace\\EE209AS-Winter2018\\Receive\\erika\\inc/ee_platform_types.h"
+	.file 4 "D:\\Users\\dingg\\eclipse_workspace\\EE209AS-Winter2018\\Receive\\erika\\inc/ee_api_types.h"
+	.file 5 "D:\\Users\\dingg\\eclipse_workspace\\EE209AS-Winter2018\\Receive\\erika\\inc/ee_hal_internal_types.h"
+	.file 6 "D:\\Users\\dingg\\eclipse_workspace\\EE209AS-Winter2018\\Receive\\erika\\inc/ee_scheduler_types.h"
+	.file 7 "D:\\Users\\dingg\\eclipse_workspace\\EE209AS-Winter2018\\Receive\\erika\\inc/ee_kernel_types.h"
+	.file 8 "D:\\Users\\dingg\\eclipse_workspace\\EE209AS-Winter2018\\Receive\\erika\\inc/ee_get_kernel_and_core.h"
 	.section	.debug_info,"",@progbits
 .Ldebug_info0:
 	.long	0x79e
@@ -1533,6 +1533,8 @@ osEE_avr8_WriteCCPReg:
 	.string	"TaskFunc"
 .LASF13:
 	.string	"TaskType"
+.LASF134:
+	.string	"D:\\Users\\dingg\\eclipse_workspace\\EE209AS-Winter2018\\Receive\\erika\\src\\ee_avr8_utils.c"
 .LASF92:
 	.string	"OSEE_KERNEL_STOPPED"
 .LASF107:
@@ -1633,8 +1635,6 @@ osEE_avr8_WriteCCPReg:
 	.string	"OSEE_TASK_TYPE_EXTENDED"
 .LASF111:
 	.string	"prev_s_isr_os_status"
-.LASF134:
-	.string	"C:\\Users\\dingg\\ECLIPS~1\\EE209A~1\\Receive\\erika\\src\\ee_avr8_utils.c"
 .LASF109:
 	.string	"last_error"
 .LASF79:

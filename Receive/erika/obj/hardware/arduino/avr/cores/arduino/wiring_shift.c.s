@@ -256,9 +256,9 @@ shiftOut:
 	.size	shiftOut, .-shiftOut
 	.text
 .Letext0:
-	.file 2 "C:\\PROGRA~2\\Arduino\\hardware\\arduino\\avr\\cores\\arduino\\pins_arduino.h"
+	.file 2 "C:\\PROGRA~2\\Arduino/hardware/arduino/avr/variants/standard/pins_arduino.h"
 	.file 3 "C:\\PROGRA~2\\Arduino\\hardware\\arduino\\avr\\cores\\arduino\\Arduino.h"
-	.file 4 "C:\\PROGRA~2\\Arduino/hardware/arduino/avr/cores/arduino/stdint.h"
+	.file 4 "c:\\progra~2\\arduino\\hardware\\tools\\avr\\avr\\include\\stdint.h"
 	.section	.debug_info,"",@progbits
 .Ldebug_info0:
 	.long	0x29e

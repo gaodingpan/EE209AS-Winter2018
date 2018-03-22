@@ -35,9 +35,4 @@ CPU mySystem {
 		APP_SRC = "mcp_can.cpp";
 		APP_SRC = "SPI.cpp";
 	};
-	TASK TaskL2 {
-		PRIORITY = 2;
-		STACK = SHARED;
-		SCHEDULE = FULL;
-	};
 };

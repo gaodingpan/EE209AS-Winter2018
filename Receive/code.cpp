@@ -56,13 +56,14 @@
 #include "mcp_can.h"
 #include "SPI.h"
 
+
 /*
  * Pin 13 has an LED connected on most Arduino boards.
  * give it a name:
  */
 int led = 13;
 const int SPI_CS_PIN = 10;
-
+volatile unsigned int dis_prev = 10000;
 MCP_CAN CAN(SPI_CS_PIN);
 
 boolean   volatile stk_wrong = false;
@@ -70,14 +71,12 @@ OsEE_addr volatile old_sp;
 
 extern "C" {
 DeclareTask(TaskL1);
-DeclareTask(TaskL2);
 
 void idle_hook (void);
 }
 
 #if (defined(OSEE_API_DYNAMIC))
 TaskType TaskL1;
-TaskType TaskL2;
 #endif /* OSEE_API_DYNAMIC */
 
 void loop(void)
@@ -132,15 +131,6 @@ int main(void)
 		TASK_FUNC(TaskL1),	/* taskFunc */
 		1U,			/* readyPrio */
 		1U,			/* dispatchPrio */
-		1U,			/* maxNumOfAct */
-		OSEE_SYSTEM_STACK		/* stackSize */
-	);
-	CreateTask(
-		&TaskL2,		/* taskIdRef */
-		OSEE_TASK_TYPE_BASIC,	/* taskType */
-		TASK_FUNC(TaskL2),	/* taskFunc */
-		2U,			/* readyPrio */
-		2U,			/* dispatchPrio */
 		1U,			/* maxNumOfAct */
 		OSEE_SYSTEM_STACK		/* stackSize */
 	);

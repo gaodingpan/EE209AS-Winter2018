@@ -8,13 +8,13 @@ __zero_reg__ = 1
 .Ltext0:
 	.cfi_sections	.debug_frame
 .Letext0:
-	.file 1 "C:\\PROGRA~2\\Arduino/hardware/arduino/avr/cores/arduino/stdint.h"
-	.file 2 "C:\\Users\\dingg\\ECLIPS~1\\EE209A~1\\Receive\\erika\\inc/ee_platform_types.h"
-	.file 3 "C:\\Users\\dingg\\ECLIPS~1\\EE209A~1\\Receive\\erika\\inc/ee_api_types.h"
-	.file 4 "C:\\Users\\dingg\\ECLIPS~1\\EE209A~1\\Receive\\erika\\inc/ee_hal_internal_types.h"
-	.file 5 "C:\\Users\\dingg\\ECLIPS~1\\EE209A~1\\Receive\\erika\\inc/ee_scheduler_types.h"
-	.file 6 "C:\\Users\\dingg\\ECLIPS~1\\EE209A~1\\Receive\\erika\\inc/ee_kernel_types.h"
-	.file 7 "C:\\Users\\dingg\\ECLIPS~1\\EE209A~1\\Receive\\erika\\inc/ee_get_kernel_and_core.h"
+	.file 1 "c:\\progra~2\\arduino\\hardware\\tools\\avr\\avr\\include\\stdint.h"
+	.file 2 "D:\\Users\\dingg\\eclipse_workspace\\EE209AS-Winter2018\\Receive\\erika\\inc/ee_platform_types.h"
+	.file 3 "D:\\Users\\dingg\\eclipse_workspace\\EE209AS-Winter2018\\Receive\\erika\\inc/ee_api_types.h"
+	.file 4 "D:\\Users\\dingg\\eclipse_workspace\\EE209AS-Winter2018\\Receive\\erika\\inc/ee_hal_internal_types.h"
+	.file 5 "D:\\Users\\dingg\\eclipse_workspace\\EE209AS-Winter2018\\Receive\\erika\\inc/ee_scheduler_types.h"
+	.file 6 "D:\\Users\\dingg\\eclipse_workspace\\EE209AS-Winter2018\\Receive\\erika\\inc/ee_kernel_types.h"
+	.file 7 "D:\\Users\\dingg\\eclipse_workspace\\EE209AS-Winter2018\\Receive\\erika\\inc/ee_get_kernel_and_core.h"
 	.section	.debug_info,"",@progbits
 .Ldebug_info0:
 	.long	0x73b
@@ -1261,8 +1261,8 @@ __zero_reg__ = 1
 	.string	"OSEE_TASK_TYPE_BASIC"
 .LASF52:
 	.string	"E_OS_PROTECTION_ARRIVAL"
-.LASF132:
-	.string	"C:\\Users\\dingg\\ECLIPS~1\\EE209A~1\\Receive\\erika\\src\\ee_oscfg.c"
+.LASF84:
+	.string	"task_type"
 .LASF20:
 	.string	"OSEE_TASK_TYPE_IDLE"
 .LASF23:
@@ -1281,8 +1281,8 @@ __zero_reg__ = 1
 	.string	"OSEE_TASK_TYPE_ISR2"
 .LASF24:
 	.string	"OsEE_task_status_tag"
-.LASF84:
-	.string	"task_type"
+.LASF132:
+	.string	"D:\\Users\\dingg\\eclipse_workspace\\EE209AS-Winter2018\\Receive\\erika\\src\\ee_oscfg.c"
 .LASF105:
 	.string	"p_free_sn"
 .LASF1:

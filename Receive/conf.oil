@@ -104,10 +104,4 @@ CPU mySystem {
 		APP_SRC = "SPI.cpp";
 	};
 
-	TASK TaskL2 {
-		PRIORITY = 2;
-		STACK = SHARED;
-		SCHEDULE = FULL;
-	};
-
 };

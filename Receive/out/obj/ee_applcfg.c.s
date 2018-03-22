@@ -12,8 +12,8 @@ KDB:
 	.word	KCB
 	.word	tdb_ptr_array
 	.word	sn_array
-	.word	3
 	.word	2
+	.word	1
 	.comm	KCB,1,1
 .global	CDB
 	.section	.rodata.CDB,"a",@progbits
@@ -22,13 +22,13 @@ KDB:
 CDB:
 	.word	CCB
 	.word	gs(idle_hook)
-	.word	tdb_array+28
+	.word	tdb_array+14
 .global	CCB
 	.section	.data.CCB,"aw",@progbits
 	.type	CCB, @object
 	.size	CCB, 18
 CCB:
-	.word	tdb_array+28
+	.word	tdb_array+14
 	.word	0
 	.word	sn_array
 	.word	0
@@ -41,26 +41,22 @@ CCB:
 	.byte	0
 	.byte	0
 .global	sn_array
-	.section	.data.sn_array,"aw",@progbits
+	.section	.bss.sn_array,"aw",@nobits
 	.type	sn_array, @object
-	.size	sn_array, 8
+	.size	sn_array, 4
 sn_array:
-	.word	sn_array+4
-	.word	0
-	.word	0
-	.word	0
+	.zero	4
 .global	tdb_ptr_array
 	.section	.rodata.tdb_ptr_array,"a",@progbits
 	.type	tdb_ptr_array, @object
-	.size	tdb_ptr_array, 6
+	.size	tdb_ptr_array, 4
 tdb_ptr_array:
 	.word	tdb_array
 	.word	tdb_array+14
-	.word	tdb_array+28
 .global	tdb_array
 	.section	.rodata.tdb_array,"a",@progbits
 	.type	tdb_array, @object
-	.size	tdb_array, 42
+	.size	tdb_array, 28
 tdb_array:
 	.word	sdb_array
 	.word	scb_array
@@ -75,15 +71,6 @@ tdb_array:
 	.word	scb_array
 	.word	tcb_array+4
 	.byte	1
-	.word	0
-	.word	gs(FuncTaskL2)
-	.byte	2
-	.byte	2
-	.byte	1
-	.word	sdb_array
-	.word	scb_array
-	.word	tcb_array+8
-	.byte	2
 	.word	3
 	.word	gs(osEE_idle_hook_wrapper)
 	.byte	0
@@ -92,13 +79,10 @@ tdb_array:
 .global	tcb_array
 	.section	.data.tcb_array,"aw",@progbits
 	.type	tcb_array, @object
-	.size	tcb_array, 12
+	.size	tcb_array, 8
 tcb_array:
 	.byte	0
 	.byte	1
-	.word	0
-	.byte	0
-	.byte	2
 	.word	0
 	.byte	1
 	.byte	0

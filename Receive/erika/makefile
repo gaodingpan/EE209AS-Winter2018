@@ -47,7 +47,7 @@ export OS_EE_OPT
 #
 ############################################################################
 ifndef  ERIKA_FILES
-ERIKA_FILES := $(shell cygpath `cygpath -ms "C:\Users\dingg\RTDruid3-Erika\plugins\com.eu.evidence.ee3_3.0.0.20171219_gh14\ee_files"`)
+ERIKA_FILES := $(shell cygpath `cygpath -ms "D:\Work\Erika_eclipse\plugins\com.eu.evidence.ee3_3.0.0.20171219_gh14\ee_files"`)
 else    # ERIKA_FILES
 ERIKA_FILES := $(shell cygpath `cygpath -ms "$(ERIKA_FILES)"`)
 endif   # ERIKA_FILES

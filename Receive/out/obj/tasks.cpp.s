@@ -6,11 +6,27 @@ __tmp_reg__ = 0
 __zero_reg__ = 1
 	.section	.rodata.str1.1,"aMS",@progbits,1
 .LC0:
-	.string	"-----------------------------"
+	.string	"Recommended Control Change: Gas Down"
 .LC1:
-	.string	"Get data from ID: "
+	.string	"Recommended Control Change: Bread"
 .LC2:
+	.string	"Recommended Control Change: Keep"
+.LC3:
+	.string	"Car Temp Status: Cold , Warning"
+.LC4:
+	.string	"-----------------------------"
+.LC5:
+	.string	"Get data from ID: "
+.LC6:
 	.string	"\t"
+.LC7:
+	.string	"Car Temp Status: Cold, Fan Speed Down"
+.LC8:
+	.string	"Car Temp Status: Normal and Balanced"
+.LC9:
+	.string	"Car Temp Status: Hot, Fan Speed Up"
+.LC10:
+	.string	"Car Temp Status: Hot, Warning"
 	.section	.text.FuncTaskL1,"ax",@progbits
 .global	FuncTaskL1
 	.type	FuncTaskL1, @function
@@ -70,13 +86,22 @@ FuncTaskL1:
 	call _ZN7MCP_CAN8getCanIdEv
 	movw r12,r22
 	movw r14,r24
-	ldi r22,lo8(.LC0)
-	ldi r23,hi8(.LC0)
+	cpi r22,1
+	cpc r23,__zero_reg__
+	brne .+2
+	rjmp .L6
+	brlo .L7
+	cpi r22,2
+	cpc r23,__zero_reg__
+	brne .+2
+	rjmp .L3
+	ldi r22,lo8(.LC4)
+	ldi r23,hi8(.LC4)
 	ldi r24,lo8(Serial)
 	ldi r25,hi8(Serial)
 	call _ZN5Print7printlnEPKc
-	ldi r22,lo8(.LC1)
-	ldi r23,hi8(.LC1)
+	ldi r22,lo8(.LC5)
+	ldi r23,hi8(.LC5)
 	ldi r24,lo8(Serial)
 	ldi r25,hi8(Serial)
 	call _ZN5Print5printEPKc
@@ -87,7 +112,65 @@ FuncTaskL1:
 	ldi r25,hi8(Serial)
 	call _ZN5Print7printlnEji
 	movw r14,r16
-.L5:
+	rjmp .L17
+.L7:
+	sts dis_cur+1,r17
+	sts dis_cur,r16
+	lds r24,dis_prev
+	lds r25,dis_prev+1
+	lds r18,dis_cur
+	lds r19,dis_cur+1
+	sub r24,r18
+	sbc r25,r19
+	sts dis_change+1,r25
+	sts dis_change,r24
+	lds r24,dis_change
+	lds r25,dis_change+1
+	or r24,r25
+	breq .L8
+	lds r24,dis_change
+	lds r25,dis_change+1
+	cpi r24,100
+	cpc r25,__zero_reg__
+	brsh .L9
+	ldi r22,lo8(.LC0)
+	ldi r23,hi8(.LC0)
+	rjmp .L26
+.L9:
+	ldi r22,lo8(.LC1)
+	ldi r23,hi8(.LC1)
+	rjmp .L26
+.L8:
+	lds r24,dis_change
+	lds r25,dis_change+1
+	ldi r22,lo8(.LC2)
+	ldi r23,hi8(.LC2)
+	rjmp .L26
+.L6:
+	sts temp+1,r17
+	sts temp,r16
+	lds r24,temp
+	lds r25,temp+1
+	sbiw r24,60
+	brsh .L10
+	ldi r22,lo8(.LC3)
+	ldi r23,hi8(.LC3)
+	rjmp .L26
+.L10:
+	lds r24,temp
+	lds r25,temp+1
+	sbiw r24,60
+	brsh .+2
+	rjmp .L11
+	lds r24,temp
+	lds r25,temp+1
+	cpi r24,85
+	cpc r25,__zero_reg__
+	brsh .L11
+	ldi r22,lo8(.LC7)
+	ldi r23,hi8(.LC7)
+	rjmp .L26
+.L17:
 	ldd r24,Y+9
 	ldi r25,0
 	movw r18,r14
@@ -95,7 +178,7 @@ FuncTaskL1:
 	sbc r19,r17
 	cp r18,r24
 	cpc r19,r25
-	brge .L8
+	brge .L28
 	movw r30,r14
 	ld r22,Z+
 	movw r14,r30
@@ -104,13 +187,13 @@ FuncTaskL1:
 	ldi r24,lo8(Serial)
 	ldi r25,hi8(Serial)
 	call _ZN5Print5printEhi
-	ldi r22,lo8(.LC2)
-	ldi r23,hi8(.LC2)
+	ldi r22,lo8(.LC6)
+	ldi r23,hi8(.LC6)
 	ldi r24,lo8(Serial)
 	ldi r25,hi8(Serial)
 	call _ZN5Print5printEPKc
-	rjmp .L5
-.L8:
+	rjmp .L17
+.L28:
 	ldi r24,lo8(Serial)
 	ldi r25,hi8(Serial)
 	call _ZN5Print7printlnEv
@@ -137,6 +220,42 @@ FuncTaskL1:
 	pop r13
 	pop r12
 	ret
+.L11:
+	lds r24,temp
+	lds r25,temp+1
+	cpi r24,85
+	cpc r25,__zero_reg__
+	brlo .L14
+	lds r24,temp
+	lds r25,temp+1
+	cpi r24,95
+	cpc r25,__zero_reg__
+	brsh .L14
+	ldi r22,lo8(.LC8)
+	ldi r23,hi8(.LC8)
+.L26:
+	ldi r24,lo8(Serial)
+	ldi r25,hi8(Serial)
+	call _ZN5Print7printlnEPKc
+	rjmp .L3
+.L14:
+	lds r24,temp
+	lds r25,temp+1
+	cpi r24,95
+	cpc r25,__zero_reg__
+	brlo .L16
+	lds r24,temp
+	lds r25,temp+1
+	cpi r24,110
+	cpc r25,__zero_reg__
+	brsh .L16
+	ldi r22,lo8(.LC9)
+	ldi r23,hi8(.LC9)
+	rjmp .L26
+.L16:
+	ldi r22,lo8(.LC10)
+	ldi r23,hi8(.LC10)
+	rjmp .L26
 	.size	FuncTaskL1, .-FuncTaskL1
 	.section	.text.startup._GLOBAL__sub_I_TaskL1_count,"ax",@progbits
 	.type	_GLOBAL__sub_I_TaskL1_count, @function
@@ -154,54 +273,6 @@ _GLOBAL__sub_I_TaskL1_count:
 	.section .ctors,"a",@progbits
 	.p2align	1
 	.word	gs(_GLOBAL__sub_I_TaskL1_count)
-	.section	.rodata.str1.1
-.LC3:
-	.string	"TASK-L2\r\n"
-	.section	.text.FuncTaskL2,"ax",@progbits
-.global	FuncTaskL2
-	.type	FuncTaskL2, @function
-FuncTaskL2:
-	push r28
-	push r29
-/* prologue: function */
-/* frame size = 0 */
-/* stack size = 2 */
-.L__stack_usage = 2
-	ldi r20,lo8(9)
-	ldi r21,0
-	ldi r22,lo8(.LC3)
-	ldi r23,hi8(.LC3)
-	ldi r24,lo8(Serial)
-	ldi r25,hi8(Serial)
-	call _ZN5Print5writeEPKhj
-	ldi r28,lo8(led)
-	ldi r29,hi8(led)
-	ldi r22,lo8(1)
-	ld r24,Y
-	call digitalWrite
-	ldi r22,lo8(-24)
-	ldi r23,lo8(3)
-	ldi r24,0
-	ldi r25,0
-	call delay
-	ldi r22,0
-	ld r24,Y
-	call digitalWrite
-	ldi r22,lo8(-24)
-	ldi r23,lo8(3)
-	ldi r24,0
-	ldi r25,0
-	call delay
-	lds r24,TaskL2_count
-	lds r25,TaskL2_count+1
-	adiw r24,1
-	sts TaskL2_count+1,r25
-	sts TaskL2_count,r24
-/* epilogue start */
-	pop r29
-	pop r28
-	jmp TerminateTask
-	.size	FuncTaskL2, .-FuncTaskL2
 .global	CAN_rec
 	.section	.bss.CAN_rec,"aw",@nobits
 	.type	CAN_rec, @object
@@ -214,11 +285,23 @@ CAN_rec:
 	.size	isr_cnt, 2
 isr_cnt:
 	.zero	2
-.global	TaskL2_count
-	.section	.bss.TaskL2_count,"aw",@nobits
-	.type	TaskL2_count, @object
-	.size	TaskL2_count, 2
-TaskL2_count:
+.global	temp
+	.section	.bss.temp,"aw",@nobits
+	.type	temp, @object
+	.size	temp, 2
+temp:
+	.zero	2
+.global	dis_change
+	.section	.bss.dis_change,"aw",@nobits
+	.type	dis_change, @object
+	.size	dis_change, 2
+dis_change:
+	.zero	2
+.global	dis_cur
+	.section	.bss.dis_cur,"aw",@nobits
+	.type	dis_cur, @object
+	.size	dis_cur, 2
+dis_cur:
 	.zero	2
 .global	TaskL1_count
 	.section	.bss.TaskL1_count,"aw",@nobits

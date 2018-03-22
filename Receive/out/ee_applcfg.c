@@ -26,7 +26,6 @@
  *
  **************************************************************************/
 DeclareTask(TaskL1);
-DeclareTask(TaskL2);
 
 
 /***************************************************************************
@@ -97,10 +96,6 @@ VAR(OsEE_TCB, OS_VAR_INIT)
     /* .current_prio       = */ 1U,
     /* .status             = */ SUSPENDED},
   {
-    /* .current_num_of_act = */ 0U,
-    /* .current_prio       = */ 2U,
-    /* .status             = */ SUSPENDED},
-  {
     /* .current_num_of_act = */ 1U,
     /* .current_prio       = */ 0U,
     /* .status             = */ RUNNING}
@@ -128,23 +123,11 @@ VAR(OsEE_TDB, OS_CONST)
     /* .max_num_of_act = */ 1U},
   {
     /* .hdb = */ {
-      /* .p_sdb    = */  &sdb_array[0U],
-      /* .p_scb    = */  &scb_array[0U]
-    },
-    /* .p_tcb          = */ &tcb_array[1U],
-    /* .tid            = */ 1U,
-    /* .task_type      = */ OSEE_TASK_TYPE_BASIC,
-    /* .task_func      = */ TASK_FUNC(TaskL2),
-    /* .ready_prio     = */ 2U,
-    /* .dispatch_prio  = */ 2U,
-    /* .max_num_of_act = */ 1U},
-  {
-    /* .hdb = */ {
       /* .p_sdb    = */     &sdb_array[0U],
       /* .p_scb    = */     &scb_array[0U]
     },
-    /* .p_tcb          = */ &tcb_array[2U],
-    /* .tid            = */ 2U,
+    /* .p_tcb          = */ &tcb_array[1U],
+    /* .tid            = */ 1U,
     /* .task_type      = */ OSEE_TASK_TYPE_IDLE,
     /* .task_func      = */ osEE_idle_hook_wrapper,
     /* .ready_prio     = */ 0U,
@@ -156,16 +139,10 @@ CONSTP2VAR(OsEE_TDB, OS_CONST, OS_APPL_DATA)
   tdb_ptr_array[OSEE_TASK_ARRAY_SIZE + OSEE_USED_CORES] =
 {
   &tdb_array[0U],
-  &tdb_array[1U],
-  &tdb_array[2U]
+  &tdb_array[1U]
 };
 
 VAR(OsEE_SN, OS_VAR_INIT)  sn_array[OSEE_SN_ARRAY_SIZE] = {
-  {
-    /* .p_next = */ &sn_array[1U],
-    /* .p_tdb  = */ NULL
-  }
-,
   {
     /* .p_next = */ NULL,
     /* .p_tdb  = */ NULL
@@ -181,7 +158,7 @@ VAR(OsEE_SN, OS_VAR_INIT)  sn_array[OSEE_SN_ARRAY_SIZE] = {
  *
  **************************************************************************/
 VAR(OsEE_CCB, OS_VAR_INIT) CCB = {
-  /* .p_curr      = */  &tdb_array[2U],
+  /* .p_curr      = */  &tdb_array[1U],
   /* .rq          = */  NULL,
   /* .p_free_sn   = */  &sn_array[0U],
   /* .p_stk_sn    = */  NULL,
@@ -203,7 +180,7 @@ VAR(OsEE_CCB, OS_VAR_INIT) CCB = {
 VAR(OsEE_CDB, OS_CONST) CDB = {
   /* .p_ccb                         = */ &CCB,
   /* .p_idle_hook                   = */ idle_hook,
-  /* .p_idle_task                   = */ &tdb_array[2U]
+  /* .p_idle_task                   = */ &tdb_array[1U]
 };
 
 VAR(OsEE_KCB, OS_VAR_NO_INIT) KCB;
